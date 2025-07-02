@@ -1,0 +1,895 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Testimonials & Portfolio - TV Mount Pro</title>
+    <link rel="stylesheet" href="../css/main.css">
+    <meta name="description" content="See what our customers say about our professional TV mounting services. Browse our portfolio of completed installations and read verified reviews.">
+</head>
+<body class="bg-background">
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 bg-surface shadow-subtle">
+        <nav class="container mx-auto px-4 py-4">
+            <div class="flex items-center justify-between">
+                <!-- Logo -->
+                <div class="flex items-center space-x-2">
+                    <svg class="w-8 h-8 text-primary" viewBox="0 0 24 24" fill="currentColor">
+                        <path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5l-1 2v1h8v-1l-1-2h5c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 12H3V5h18v10z"/>
+                        <circle cx="12" cy="10" r="2"/>
+                    </svg>
+                    <span class="text-xl font-heading font-bold text-primary">TV Mount Pro</span>
+                </div>
+
+                <!-- Desktop Navigation -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="homepage.html" class="text-text-secondary hover:text-primary transition-colors">Home</a>
+                    <a href="services_pricing.html" class="text-text-secondary hover:text-primary transition-colors">Services</a>
+                    <a href="online_booking_system.html" class="text-text-secondary hover:text-primary transition-colors">Book Now</a>
+                    <a href="customer_testimonials_portfolio.html" class="text-primary font-semibold">Reviews</a>
+                    <a href="contact_service_areas.html" class="text-text-secondary hover:text-primary transition-colors">Contact</a>
+                </div>
+
+                <!-- Phone Number & Mobile Menu -->
+                <div class="flex items-center space-x-4">
+                    <a href="tel:+1-555-TV-MOUNT" class="hidden sm:flex items-center space-x-2 text-primary font-semibold">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <span>(555) TV-MOUNT</span>
+                    </a>
+                    
+                    <!-- Mobile Menu Button -->
+                    <button id="mobile-menu-btn" class="md:hidden p-2 text-text-secondary hover:text-primary">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"/>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+
+            <!-- Mobile Navigation Menu -->
+            <div id="mobile-menu" class="hidden md:hidden mt-4 pb-4 border-t border-border-light">
+                <div class="flex flex-col space-y-4 pt-4">
+                    <a href="homepage.html" class="text-text-secondary">Home</a>
+                    <a href="services_pricing.html" class="text-text-secondary">Services & Pricing</a>
+                    <a href="online_booking_system.html" class="text-text-secondary">Book Appointment</a>
+                    <a href="customer_testimonials_portfolio.html" class="text-primary font-semibold">Reviews & Portfolio</a>
+                    <a href="contact_service_areas.html" class="text-text-secondary">Contact & Areas</a>
+                    <a href="tel:+1-555-TV-MOUNT" class="text-primary font-semibold flex items-center space-x-2">
+                        <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 20 20">
+                            <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                        </svg>
+                        <span>(555) TV-MOUNT</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="py-16 lg:py-24 bg-gradient-to-br from-primary-50 to-accent-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center max-w-4xl mx-auto">
+                <h1 class="text-4xl lg:text-6xl font-heading font-bold text-text-primary mb-6">
+                    Customer Reviews & 
+                    <span class="text-primary">Portfolio</span>
+                </h1>
+                <p class="text-lg lg:text-xl text-text-secondary mb-8">
+                    See why thousands of customers trust us with their TV mounting needs. Browse our completed projects and read verified reviews from satisfied customers.
+                </p>
+
+                <!-- Statistics Dashboard -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-6 mb-8">
+                    <div class="bg-surface rounded-lg p-6 shadow-subtle">
+                        <div class="text-3xl font-heading font-bold text-primary mb-2">4.9</div>
+                        <div class="flex items-center justify-center mb-2">
+                            <div class="flex text-accent">
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                                <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                    <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                </svg>
+                            </div>
+                        </div>
+                        <div class="text-sm text-text-secondary">Average Rating</div>
+                    </div>
+                    <div class="bg-surface rounded-lg p-6 shadow-subtle">
+                        <div class="text-3xl font-heading font-bold text-primary mb-2">2,847</div>
+                        <div class="text-sm text-text-secondary">Projects Completed</div>
+                    </div>
+                    <div class="bg-surface rounded-lg p-6 shadow-subtle">
+                        <div class="text-3xl font-heading font-bold text-primary mb-2">98%</div>
+                        <div class="text-sm text-text-secondary">Satisfaction Rate</div>
+                    </div>
+                    <div class="bg-surface rounded-lg p-6 shadow-subtle">
+                        <div class="text-3xl font-heading font-bold text-primary mb-2">24hr</div>
+                        <div class="text-sm text-text-secondary">Response Time</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Filter Section -->
+    <section class="py-8 bg-surface border-b border-border-light">
+        <div class="container mx-auto px-4">
+            <!-- Search Bar -->
+            <div class="max-w-2xl mx-auto mb-6">
+                <div class="relative">
+                    <svg class="absolute left-3 top-1/2 transform -translate-y-1/2 w-5 h-5 text-text-secondary" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"/>
+                    </svg>
+                    <input 
+                        type="text" 
+                        placeholder="Search reviews by service type, customer name, or keywords..."
+                        class="w-full pl-10 pr-4 py-3 border border-border rounded-lg focus:outline-none focus:ring-2 focus:ring-primary-500 focus:border-primary-500"
+                    />
+                </div>
+            </div>
+
+            <!-- Filter Chips -->
+            <div class="flex flex-wrap gap-3 justify-center">
+                <button class="filter-chip active" data-filter="all">All Reviews</button>
+                <button class="filter-chip" data-filter="wall-mount">Wall Mount</button>
+                <button class="filter-chip" data-filter="ceiling-mount">Ceiling Mount</button>
+                <button class="filter-chip" data-filter="full-setup">Complete Setup</button>
+                <button class="filter-chip" data-filter="5-star">5 Star Only</button>
+                <button class="filter-chip" data-filter="recent">Most Recent</button>
+                <button class="filter-chip" data-filter="verified">Verified Only</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Video Testimonials Section -->
+    <section class="py-16 bg-secondary-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-text-primary mb-4">
+                    Video Testimonials
+                </h2>
+                <p class="text-lg text-text-secondary">
+                    Hear directly from our satisfied customers about their experience
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Video Testimonial 1 -->
+                <div class="bg-surface rounded-lg overflow-hidden shadow-subtle hover:shadow-elevated transition-all duration-300">
+                    <div class="relative">
+                        <img 
+                            src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=2926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Customer video testimonial"
+                            class="w-full h-48 object-cover"
+                            loading="lazy"
+                            onerror="this.src='https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;"
+                        />
+                        <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
+                            <button class="bg-white/90 hover:bg-white rounded-full p-4 transition-colors">
+                                <svg class="w-8 h-8 text-primary ml-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-accent text-white px-2 py-1 rounded text-sm font-semibold">
+                            2:34
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading font-semibold text-text-primary mb-2">Amazing Wall Mount Service</h3>
+                        <p class="text-text-secondary text-sm mb-3">Sarah explains how our team transformed her living room with a professional 75" TV wall mount installation.</p>
+                        <div class="flex items-center">
+                            <img 
+                                src="https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Sarah L."
+                                class="w-8 h-8 rounded-full object-cover mr-3"
+                                loading="lazy"
+                                onerror="this.src='https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg'; this.onerror=null;"
+                            />
+                            <div>
+                                <p class="text-sm font-semibold text-text-primary">Sarah L.</p>
+                                <p class="text-xs text-text-secondary">Homeowner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Testimonial 2 -->
+                <div class="bg-surface rounded-lg overflow-hidden shadow-subtle hover:shadow-elevated transition-all duration-300">
+                    <div class="relative">
+                        <img 
+                            src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Customer video testimonial"
+                            class="w-full h-48 object-cover"
+                            loading="lazy"
+                            onerror="this.src='https://images.pixabay.com/photo/2016/11/19/15/32/laptop-1840018_1280.jpg'; this.onerror=null;"
+                        />
+                        <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
+                            <button class="bg-white/90 hover:bg-white rounded-full p-4 transition-colors">
+                                <svg class="w-8 h-8 text-primary ml-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-accent text-white px-2 py-1 rounded text-sm font-semibold">
+                            3:12
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading font-semibold text-text-primary mb-2">Professional Ceiling Mount</h3>
+                        <p class="text-text-secondary text-sm mb-3">Michael shares his experience with our ceiling mount installation for his home theater setup.</p>
+                        <div class="flex items-center">
+                            <img 
+                                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="Michael R."
+                                class="w-8 h-8 rounded-full object-cover mr-3"
+                                loading="lazy"
+                                onerror="this.src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;"
+                            />
+                            <div>
+                                <p class="text-sm font-semibold text-text-primary">Michael R.</p>
+                                <p class="text-xs text-text-secondary">Business Owner</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Video Testimonial 3 -->
+                <div class="bg-surface rounded-lg overflow-hidden shadow-subtle hover:shadow-elevated transition-all duration-300">
+                    <div class="relative">
+                        <img 
+                            src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                            alt="Customer video testimonial"
+                            class="w-full h-48 object-cover"
+                            loading="lazy"
+                            onerror="this.src='https://images.pixabay.com/photo/2017/08/10/02/05/tiles-shapes-2617112_1280.jpg'; this.onerror=null;"
+                        />
+                        <div class="absolute inset-0 bg-black/30 flex items-center justify-center">
+                            <button class="bg-white/90 hover:bg-white rounded-full p-4 transition-colors">
+                                <svg class="w-8 h-8 text-primary ml-1" fill="currentColor" viewBox="0 0 24 24">
+                                    <path d="M8 5v14l11-7z"/>
+                                </svg>
+                            </button>
+                        </div>
+                        <div class="absolute top-4 right-4 bg-accent text-white px-2 py-1 rounded text-sm font-semibold">
+                            1:58
+                        </div>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="font-heading font-semibold text-text-primary mb-2">Complete Entertainment Setup</h3>
+                        <p class="text-text-secondary text-sm mb-3">David discusses our comprehensive entertainment system installation and cable management.</p>
+                        <div class="flex items-center">
+                            <img 
+                                src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                alt="David K."
+                                class="w-8 h-8 rounded-full object-cover mr-3"
+                                loading="lazy"
+                                onerror="this.src='https://images.pixabay.com/photo/2016/11/18/19/07/happy-1836445_1280.jpg'; this.onerror=null;"
+                            />
+                            <div>
+                                <p class="text-sm font-semibold text-text-primary">David K.</p>
+                                <p class="text-xs text-text-secondary">Property Manager</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content: Testimonials & Portfolio -->
+    <section class="py-16 bg-surface">
+        <div class="container mx-auto px-4">
+            <div class="lg:grid lg:grid-cols-12 lg:gap-8">
+                <!-- Testimonials Sidebar (Desktop) / Mobile Cards -->
+                <div class="lg:col-span-5 space-y-6 mb-12 lg:mb-0">
+                    <h2 class="text-2xl lg:text-3xl font-heading font-bold text-text-primary mb-8">
+                        Customer Reviews
+                    </h2>
+
+                    <!-- Testimonial Card 1 -->
+                    <div class="testimonial-card bg-surface border border-border rounded-lg p-6 hover:shadow-elevated transition-all duration-300" data-portfolio="wall-mount-1">
+                        <div class="flex items-start justify-between mb-4">
+                            <div class="flex items-center space-x-3">
+                                <img 
+                                    src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Michael R."
+                                    class="w-12 h-12 rounded-full object-cover"
+                                    loading="lazy"
+                                    onerror="this.src='https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;"
+                                />
+                                <div>
+                                    <h3 class="font-semibold text-text-primary">Michael R.</h3>
+                                    <p class="text-sm text-text-secondary">Verified Customer</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <div class="flex text-accent">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                </div>
+                                <span class="bg-success-100 text-success-600 px-2 py-1 rounded text-xs font-semibold">Verified</span>
+                            </div>
+                        </div>
+                        <p class="text-text-secondary mb-4 italic">
+                            "Exceptional service! They mounted our 75" TV perfectly and the cable management looks amazing. The team was professional, punctual, and cleaned up everything afterward. Highly recommend!"
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-primary-100 text-primary-700 px-2 py-1 rounded text-xs font-semibold">Wall Mount</span>
+                                <span class="text-xs text-text-secondary">2 days ago</span>
+                            </div>
+                            <button class="text-primary text-sm font-semibold hover:text-primary-700 transition-colors">
+                                View Project →
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial Card 2 -->
+                    <div class="testimonial-card bg-surface border border-border rounded-lg p-6 hover:shadow-elevated transition-all duration-300" data-portfolio="ceiling-mount-1">
+                        <div class="flex items-start justify-between mb-4">
+                            <div class="flex items-center space-x-3">
+                                <img 
+                                    src="https://images.unsplash.com/photo-1494790108755-2616b612b786?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Sarah L."
+                                    class="w-12 h-12 rounded-full object-cover"
+                                    loading="lazy"
+                                    onerror="this.src='https://images.pixabay.com/photo/2016/11/21/12/42/beard-1845166_1280.jpg'; this.onerror=null;"
+                                />
+                                <div>
+                                    <h3 class="font-semibold text-text-primary">Sarah L.</h3>
+                                    <p class="text-sm text-text-secondary">Verified Customer</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <div class="flex text-accent">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                </div>
+                                <span class="bg-success-100 text-success-600 px-2 py-1 rounded text-xs font-semibold">Verified</span>
+                            </div>
+                        </div>
+                        <p class="text-text-secondary mb-4 italic">
+                            "Amazing ceiling mount installation in our bedroom! The viewing angle is perfect and they handled the complex wiring beautifully. Quick online booking made it so easy."
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-accent-100 text-accent-700 px-2 py-1 rounded text-xs font-semibold">Ceiling Mount</span>
+                                <span class="text-xs text-text-secondary">5 days ago</span>
+                            </div>
+                            <button class="text-primary text-sm font-semibold hover:text-primary-700 transition-colors">
+                                View Project →
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial Card 3 -->
+                    <div class="testimonial-card bg-surface border border-border rounded-lg p-6 hover:shadow-elevated transition-all duration-300" data-portfolio="full-setup-1">
+                        <div class="flex items-start justify-between mb-4">
+                            <div class="flex items-center space-x-3">
+                                <img 
+                                    src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="David K."
+                                    class="w-12 h-12 rounded-full object-cover"
+                                    loading="lazy"
+                                    onerror="this.src='https://images.pixabay.com/photo/2016/11/18/19/07/happy-1836445_1280.jpg'; this.onerror=null;"
+                                />
+                                <div>
+                                    <h3 class="font-semibold text-text-primary">David K.</h3>
+                                    <p class="text-sm text-text-secondary">Verified Customer</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center space-x-2">
+                                <div class="flex text-accent">
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                    <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 20 20">
+                                        <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
+                                    </svg>
+                                </div>
+                                <span class="bg-success-100 text-success-600 px-2 py-1 rounded text-xs font-semibold">Verified</span>
+                            </div>
+                        </div>
+                        <p class="text-text-secondary mb-4 italic">
+                            "Complete entertainment system setup was flawless! They connected everything, organized all cables, and even calibrated the picture. Worth every penny for the professional result."
+                        </p>
+                        <div class="flex items-center justify-between">
+                            <div class="flex items-center space-x-2">
+                                <span class="bg-success-100 text-success-700 px-2 py-1 rounded text-xs font-semibold">Full Setup</span>
+                                <span class="text-xs text-text-secondary">1 week ago</span>
+                            </div>
+                            <button class="text-primary text-sm font-semibold hover:text-primary-700 transition-colors">
+                                View Project →
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Load More Button -->
+                    <div class="text-center pt-6">
+                        <button class="btn-secondary">
+                            Load More Reviews
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Portfolio Gallery (Desktop Main Area) -->
+                <div class="lg:col-span-7">
+                    <h2 class="text-2xl lg:text-3xl font-heading font-bold text-text-primary mb-8">
+                        Project Portfolio
+                    </h2>
+
+                    <!-- Portfolio Grid -->
+                    <div class="portfolio-grid grid grid-cols-1 md:grid-cols-2 gap-6">
+                        <!-- Portfolio Item 1 -->
+                        <div class="portfolio-item bg-surface rounded-lg overflow-hidden shadow-subtle hover:shadow-elevated transition-all duration-300" id="wall-mount-1">
+                            <div class="relative">
+                                <img 
+                                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="75 inch TV wall mount installation"
+                                    class="w-full h-64 object-cover"
+                                    loading="lazy"
+                                    onerror="this.src='https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;"
+                                />
+                                <div class="absolute top-4 left-4 bg-primary text-white px-3 py-1 rounded text-sm font-semibold">
+                                    Before & After
+                                </div>
+                                <div class="absolute inset-0 bg-black/0 hover:bg-black/20 transition-all duration-300 flex items-center justify-center opacity-0 hover:opacity-100">
+                                    <button class="bg-white/90 text-primary px-4 py-2 rounded-md font-semibold">
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="p-6">
+                                <h3 class="font-heading font-semibold text-text-primary mb-2">75" TV Wall Mount Installation</h3>
+                                <p class="text-text-secondary text-sm mb-4">
+                                    Professional wall mounting with cable management and perfect positioning for optimal viewing experience.
+                                </p>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-2">
+                                        <span class="bg-primary-100 text-primary-700 px-2 py-1 rounded text-xs font-semibold">Wall Mount</span>
+                                        <span class="text-xs text-text-secondary">Living Room</span>
+                                    </div>
+                                    <a href="online_booking_system.html" class="text-primary text-sm font-semibold hover:text-primary-700 transition-colors">
+                                        Book Similar →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Item 2 -->
+                        <div class="portfolio-item bg-surface rounded-lg overflow-hidden shadow-subtle hover:shadow-elevated transition-all duration-300" id="ceiling-mount-1">
+                            <div class="relative">
+                                <img 
+                                    src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?q=80&w=2958&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Bedroom ceiling TV mount installation"
+                                    class="w-full h-64 object-cover"
+                                    loading="lazy"
+                                    onerror="this.src='https://images.pixabay.com/photo/2016/11/19/15/32/laptop-1840018_1280.jpg'; this.onerror=null;"
+                                />
+                                <div class="absolute top-4 left-4 bg-accent text-white px-3 py-1 rounded text-sm font-semibold">
+                                    Before & After
+                                </div>
+                                <div class="absolute inset-0 bg-black/0 hover:bg-black/20 transition-all duration-300 flex items-center justify-center opacity-0 hover:opacity-100">
+                                    <button class="bg-white/90 text-primary px-4 py-2 rounded-md font-semibold">
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="p-6">
+                                <h3 class="font-heading font-semibold text-text-primary mb-2">Bedroom Ceiling Mount Setup</h3>
+                                <p class="text-text-secondary text-sm mb-4">
+                                    Ceiling mount installation with adjustable viewing angles and hidden cable routing for clean aesthetics.
+                                </p>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-2">
+                                        <span class="bg-accent-100 text-accent-700 px-2 py-1 rounded text-xs font-semibold">Ceiling Mount</span>
+                                        <span class="text-xs text-text-secondary">Bedroom</span>
+                                    </div>
+                                    <a href="online_booking_system.html" class="text-primary text-sm font-semibold hover:text-primary-700 transition-colors">
+                                        Book Similar →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Item 3 -->
+                        <div class="portfolio-item bg-surface rounded-lg overflow-hidden shadow-subtle hover:shadow-elevated transition-all duration-300" id="full-setup-1">
+                            <div class="relative">
+                                <img 
+                                    src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?q=80&w=2940&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Complete entertainment system setup"
+                                    class="w-full h-64 object-cover"
+                                    loading="lazy"
+                                    onerror="this.src='https://images.pixabay.com/photo/2017/08/10/02/05/tiles-shapes-2617112_1280.jpg'; this.onerror=null;"
+                                />
+                                <div class="absolute top-4 left-4 bg-success text-white px-3 py-1 rounded text-sm font-semibold">
+                                    Before & After
+                                </div>
+                                <div class="absolute inset-0 bg-black/0 hover:bg-black/20 transition-all duration-300 flex items-center justify-center opacity-0 hover:opacity-100">
+                                    <button class="bg-white/90 text-primary px-4 py-2 rounded-md font-semibold">
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="p-6">
+                                <h3 class="font-heading font-semibold text-text-primary mb-2">Complete Entertainment Setup</h3>
+                                <p class="text-text-secondary text-sm mb-4">
+                                    Full system installation including TV mounting, sound bar, gaming console setup, and comprehensive cable management.
+                                </p>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-2">
+                                        <span class="bg-success-100 text-success-700 px-2 py-1 rounded text-xs font-semibold">Full Setup</span>
+                                        <span class="text-xs text-text-secondary">Home Theater</span>
+                                    </div>
+                                    <a href="online_booking_system.html" class="text-primary text-sm font-semibold hover:text-primary-700 transition-colors">
+                                        Book Similar →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Portfolio Item 4 -->
+                        <div class="portfolio-item bg-surface rounded-lg overflow-hidden shadow-subtle hover:shadow-elevated transition-all duration-300">
+                            <div class="relative">
+                                <img 
+                                    src="https://images.unsplash.com/photo-1560472354-b33ff0c44a43?q=80&w=2926&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                                    alt="Commercial TV installation"
+                                    class="w-full h-64 object-cover"
+                                    loading="lazy"
+                                    onerror="this.src='https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2'; this.onerror=null;"
+                                />
+                                <div class="absolute top-4 left-4 bg-secondary text-white px-3 py-1 rounded text-sm font-semibold">
+                                    Before & After
+                                </div>
+                                <div class="absolute inset-0 bg-black/0 hover:bg-black/20 transition-all duration-300 flex items-center justify-center opacity-0 hover:opacity-100">
+                                    <button class="bg-white/90 text-primary px-4 py-2 rounded-md font-semibold">
+                                        View Details
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="p-6">
+                                <h3 class="font-heading font-semibold text-text-primary mb-2">Commercial Office Installation</h3>
+                                <p class="text-text-secondary text-sm mb-4">
+                                    Multiple TV installations for conference rooms with professional cable management and network connectivity.
+                                </p>
+                                <div class="flex items-center justify-between">
+                                    <div class="flex items-center space-x-2">
+                                        <span class="bg-secondary-100 text-secondary-700 px-2 py-1 rounded text-xs font-semibold">Commercial</span>
+                                        <span class="text-xs text-text-secondary">Office</span>
+                                    </div>
+                                    <a href="online_booking_system.html" class="text-primary text-sm font-semibold hover:text-primary-700 transition-colors">
+                                        Book Similar →
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Load More Portfolio Button -->
+                    <div class="text-center mt-8">
+                        <button class="btn-secondary">
+                            Load More Projects
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Trust Indicators Section -->
+    <section class="py-16 bg-secondary-50">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-text-primary mb-4">
+                    Why Customers Trust Us
+                </h2>
+                <p class="text-lg text-text-secondary">
+                    Our commitment to excellence is reflected in every review and project
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Trust Indicator 1 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-success-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-success" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading font-semibold text-text-primary mb-2">Verified Reviews</h3>
+                    <p class="text-text-secondary text-sm">All customer reviews are verified through our booking system and Google integration</p>
+                </div>
+
+                <!-- Trust Indicator 2 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-primary" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading font-semibold text-text-primary mb-2">Licensed & Insured</h3>
+                    <p class="text-text-secondary text-sm">Fully licensed professionals with comprehensive insurance coverage for your peace of mind</p>
+                </div>
+
+                <!-- Trust Indicator 3 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-accent-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-accent" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading font-semibold text-text-primary mb-2">Quick Response</h3>
+                    <p class="text-text-secondary text-sm">Average 24-hour response time with same-day service available for urgent requests</p>
+                </div>
+
+                <!-- Trust Indicator 4 -->
+                <div class="text-center">
+                    <div class="w-16 h-16 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <svg class="w-8 h-8 text-secondary" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z"/>
+                        </svg>
+                    </div>
+                    <h3 class="font-heading font-semibold text-text-primary mb-2">Satisfaction Guarantee</h3>
+                    <p class="text-text-secondary text-sm">100% satisfaction guarantee with free follow-up service if you're not completely happy</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Recent Reviews Notification -->
+    <section class="py-8 bg-primary">
+        <div class="container mx-auto px-4">
+            <div class="flex items-center justify-center space-x-4 text-white">
+                <svg class="w-6 h-6 text-accent animate-pulse" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+                <p class="text-center">
+                    <span class="font-semibold">Just received:</span> 5-star review from Jennifer M. for ceiling mount installation • 
+                    <span class="font-semibold">3 new reviews</span> in the last 24 hours
+                </p>
+                <svg class="w-6 h-6 text-accent animate-pulse" fill="currentColor" viewBox="0 0 24 24">
+                    <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"/>
+                </svg>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 lg:py-24 bg-gradient-to-r from-primary to-primary-700">
+        <div class="container mx-auto px-4 text-center">
+            <div class="max-w-3xl mx-auto">
+                <h2 class="text-3xl lg:text-4xl font-heading font-bold text-white mb-6">
+                    Ready to Join Our Satisfied Customers?
+                </h2>
+                <p class="text-xl text-primary-100 mb-8">
+                    Experience the same professional service that earned us thousands of 5-star reviews. Book your TV mounting appointment today.
+                </p>
+
+                <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                    <a href="online_booking_system.html" class="bg-white text-primary px-8 py-4 rounded-md font-semibold hover:bg-primary-50 transition-colors">
+                        Book Your Installation Now
+                    </a>
+                    <a href="services_pricing.html" class="bg-transparent border-2 border-white text-white px-8 py-4 rounded-md font-semibold hover:bg-white hover:text-primary transition-colors">
+                        View Services & Pricing
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-secondary-800 text-white py-16">
+        <div class="container mx-auto px-4">
+            <div class="grid md:grid-cols-4 gap-8">
+                <!-- Company Info -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-6">
+                        <svg class="w-8 h-8 text-primary-400" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M21 3H3c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h5l-1 2v1h8v-1l-1-2h5c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 12H3V5h18v10z"/>
+                            <circle cx="12" cy="10" r="2"/>
+                        </svg>
+                        <span class="text-xl font-heading font-bold">TV Mount Pro</span>
+                    </div>
+                    <p class="text-secondary-300 mb-4">
+                        Professional TV mounting services with expert installation and satisfaction guarantee.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-secondary-400 hover:text-white transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-secondary-400 hover:text-white transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M22.46 6c-.77.35-1.6.58-2.46.69.88-.53 1.56-1.37 1.88-2.38-.83.5-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.2-1.95-.5v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.93.07 4.28 4.28 0 0 0 4 2.98 8.521 8.521 0 0 1-5.33 1.84c-.34 0-.68-.02-1.02-.06C3.44 20.29 5.7 21 8.12 21 16 21 20.33 14.46 20.33 8.79c0-.19 0-.37-.01-.56.84-.6 1.56-1.36 2.14-2.23z"/>
+                            </svg>
+                        </a>
+                        <a href="#" class="text-secondary-400 hover:text-white transition-colors">
+                            <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
+                                <path d="M12.017 0C5.396 0 .029 5.367.029 11.987c0 5.079 3.158 9.417 7.618 11.174-.105-.949-.199-2.403.041-3.439.219-.937 1.406-5.957 1.406-5.957s-.359-.72-.359-1.781c0-1.663.967-2.911 2.168-2.911 1.024 0 1.518.769 1.518 1.688 0 1.029-.653 2.567-.992 3.992-.285 1.193.6 2.165 1.775 2.165 2.128 0 3.768-2.245 3.768-5.487 0-2.861-2.063-4.869-5.008-4.869-3.41 0-5.409 2.562-5.409 5.199 0 1.033.394 2.143.889 2.741.099.12.112.225.085.345-.09.375-.293 1.199-.334 1.363-.053.225-.172.271-.402.165-1.495-.69-2.433-2.878-2.433-4.646 0-3.776 2.748-7.252 7.92-7.252 4.158 0 7.392 2.967 7.392 6.923 0 4.135-2.607 7.462-6.233 7.462-1.214 0-2.357-.629-2.746-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24.009 12.017 24.009c6.624 0 11.99-5.367 11.99-11.988C24.007 5.367 18.641.001.012.001z"/>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h3 class="text-lg font-heading font-semibold mb-6">Quick Links</h3>
+                    <ul class="space-y-3">
+                        <li><a href="homepage.html" class="text-secondary-300 hover:text-white transition-colors">Home</a></li>
+                        <li><a href="services_pricing.html" class="text-secondary-300 hover:text-white transition-colors">Services & Pricing</a></li>
+                        <li><a href="online_booking_system.html" class="text-secondary-300 hover:text-white transition-colors">Book Appointment</a></li>
+                        <li><a href="customer_testimonials_portfolio.html" class="text-secondary-300 hover:text-white transition-colors">Reviews & Portfolio</a></li>
+                        <li><a href="contact_service_areas.html" class="text-secondary-300 hover:text-white transition-colors">Contact & Service Areas</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h3 class="text-lg font-heading font-semibold mb-6">Our Services</h3>
+                    <ul class="space-y-3">
+                        <li><a href="services_pricing.html#wall-mounting" class="text-secondary-300 hover:text-white transition-colors">Wall Mounting</a></li>
+                        <li><a href="services_pricing.html#ceiling-mounting" class="text-secondary-300 hover:text-white transition-colors">Ceiling Mounting</a></li>
+                        <li><a href="services_pricing.html#setup-services" class="text-secondary-300 hover:text-white transition-colors">Complete Setup</a></li>
+                        <li><a href="services_pricing.html#cable-management" class="text-secondary-300 hover:text-white transition-colors">Cable Management</a></li>
+                        <li><a href="services_pricing.html#emergency" class="text-secondary-300 hover:text-white transition-colors">Emergency Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact Info -->
+                <div>
+                    <h3 class="text-lg font-heading font-semibold mb-6">Contact Info</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-5 h-5 text-primary-400 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"/>
+                            </svg>
+                            <div>
+                                <p class="text-white font-semibold">(555) TV-MOUNT</p>
+                                <p class="text-secondary-300 text-sm">24/7 Emergency Service</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-5 h-5 text-primary-400 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z"/>
+                                <path d="M18 8.118l-8 4-8-4V14a2 2 0 002 2h12a2 2 0 002-2V8.118z"/>
+                            </svg>
+                            <div>
+                                <p class="text-white">info@tvmountpro.com</p>
+                                <p class="text-secondary-300 text-sm">Quick Response Guaranteed</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start space-x-3">
+                            <svg class="w-5 h-5 text-primary-400 mt-1" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"/>
+                            </svg>
+                            <div>
+                                <p class="text-white">Metro Area Coverage</p>
+                                <p class="text-secondary-300 text-sm">Same-Day Service Available</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="border-t border-secondary-700 mt-12 pt-8 text-center">
+                <p class="text-secondary-400">
+                    © 2025 TV Mount Pro. All Rights Reserved. | Licensed & Insured Professional TV Mounting Services
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Interactive Features -->
+    <script>
+        // Mobile Menu Toggle
+        document.getElementById('mobile-menu-btn').addEventListener('click', function() {
+            const mobileMenu = document.getElementById('mobile-menu');
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Filter Chips Functionality
+        document.querySelectorAll('.filter-chip').forEach(chip => {
+            chip.addEventListener('click', function() {
+                // Remove active class from all chips
+                document.querySelectorAll('.filter-chip').forEach(c => c.classList.remove('active'));
+                // Add active class to clicked chip
+                this.classList.add('active');
+                
+                // Filter logic would go here
+                const filter = this.getAttribute('data-filter');
+                console.log('Filtering by:', filter);
+            });
+        });
+
+        // Testimonial to Portfolio Connection
+        document.querySelectorAll('.testimonial-card').forEach(card => {
+            card.addEventListener('click', function() {
+                const portfolioId = this.getAttribute('data-portfolio');
+                const portfolioItem = document.getElementById(portfolioId);
+                
+                if (portfolioItem) {
+                    portfolioItem.scrollIntoView({ behavior: 'smooth' });
+                    portfolioItem.classList.add('highlight');
+                    setTimeout(() => {
+                        portfolioItem.classList.remove('highlight');
+                    }, 2000);
+                }
+            });
+        });
+    </script>
+
+    <style>
+        .filter-chip {
+            @apply px-4 py-2 bg-secondary-100 text-secondary-700 rounded-full text-sm font-medium transition-all duration-200 hover:bg-secondary-200;
+        }
+        
+        .filter-chip.active {
+            @apply bg-primary text-white;
+        }
+        
+        .portfolio-item.highlight {
+            @apply ring-4 ring-primary ring-opacity-50;
+        }
+        
+        .testimonial-card:hover {
+            @apply cursor-pointer;
+        }
+    </style>
+<script id="dhws-dataInjector" src="../public/dhws-data-injector.js"></script>
+<script id="dhws-elementInspector" src="../public/dhws-web-inspector.js"></script>
+<script id="dhws-errorTracker" src="../public/dhws-error-tracker.js"></script>
+</body>
+</html>
