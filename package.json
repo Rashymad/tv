@@ -1,7 +1,7 @@
 {
   "name": "tv_mount_pro",
   "version": "1.0.0",
-  "description": "",
+  "description": "Professional TV Mounting Services Website",
   "main": "index.html",
   "dependencies": {
     "@dhiwise/component-tagger": "^1.0.5",
@@ -14,7 +14,8 @@
     "build": "npm run build:css",
     "build:css": "npx @dhiwise/component-tagger && npx tailwindcss -i ./css/tailwind.css -o ./css/main.css",
     "watch:css": "npx @dhiwise/component-tagger && npx tailwindcss -i ./css/tailwind.css -o ./css/main.css --watch",
-    "dev": "npm run watch:css"
+    "dev": "npm run watch:css",
+    "start": "npm run build:css"
   },
   "author": "",
   "license": "MIT",
