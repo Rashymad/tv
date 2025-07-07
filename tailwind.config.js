@@ -4,49 +4,49 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          DEFAULT: "#1E3A8A", // blue-800
-          50: "#EFF6FF", // blue-50
-          100: "#DBEAFE", // blue-100
-          200: "#BFDBFE", // blue-200
-          300: "#93C5FD", // blue-300
-          400: "#60A5FA", // blue-400
-          500: "#3B82F6", // blue-500
-          600: "#2563EB", // blue-600
-          700: "#1D4ED8", // blue-700
-          800: "#1E3A8A", // blue-800
-          900: "#1E40AF", // blue-900
+          DEFAULT: "#E50914", // Netflix red
+          50: "#FEF2F2", // red-50
+          100: "#FEE2E2", // red-100
+          200: "#FECACA", // red-200
+          300: "#FCA5A5", // red-300
+          400: "#F87171", // red-400
+          500: "#EF4444", // red-500
+          600: "#DC2626", // red-600
+          700: "#B91C1C", // red-700
+          800: "#991B1B", // red-800
+          900: "#E50914", // Netflix red
         },
         secondary: {
-          DEFAULT: "#64748B", // slate-500
-          50: "#F8FAFC", // slate-50
-          100: "#F1F5F9", // slate-100
-          200: "#E2E8F0", // slate-200
-          300: "#CBD5E1", // slate-300
-          400: "#94A3B8", // slate-400
-          500: "#64748B", // slate-500
-          600: "#475569", // slate-600
-          700: "#334155", // slate-700
-          800: "#1E293B", // slate-800
-          900: "#0F172A", // slate-900
+          DEFAULT: "#000000", // black
+          50: "#F9FAFB", // gray-50
+          100: "#F3F4F6", // gray-100
+          200: "#E5E7EB", // gray-200
+          300: "#D1D5DB", // gray-300
+          400: "#9CA3AF", // gray-400
+          500: "#6B7280", // gray-500
+          600: "#4B5563", // gray-600
+          700: "#374151", // gray-700
+          800: "#1F2937", // gray-800
+          900: "#000000", // black
         },
         accent: {
-          DEFAULT: "#F59E0B", // amber-500
-          50: "#FFFBEB", // amber-50
-          100: "#FEF3C7", // amber-100
-          200: "#FDE68A", // amber-200
-          300: "#FCD34D", // amber-300
-          400: "#FBBF24", // amber-400
-          500: "#F59E0B", // amber-500
-          600: "#D97706", // amber-600
-          700: "#B45309", // amber-700
-          800: "#92400E", // amber-800
-          900: "#78350F", // amber-900
+          DEFAULT: "#FFFFFF", // white
+          50: "#FFFFFF", // white
+          100: "#F9FAFB", // gray-50
+          200: "#F3F4F6", // gray-100
+          300: "#E5E7EB", // gray-200
+          400: "#D1D5DB", // gray-300
+          500: "#9CA3AF", // gray-400
+          600: "#6B7280", // gray-500
+          700: "#4B5563", // gray-600
+          800: "#374151", // gray-700
+          900: "#1F2937", // gray-800
         },
-        background: "#FAFAFA", // gray-50
+        background: "#FFFFFF", // white
         surface: "#FFFFFF", // white
         text: {
-          primary: "#1F2937", // gray-800
-          secondary: "#6B7280", // gray-500
+          primary: "#000000", // black
+          secondary: "#4B5563", // gray-600
         },
         success: {
           DEFAULT: "#10B981", // emerald-500
@@ -63,10 +63,10 @@ module.exports = {
           600: "#D97706", // amber-600
         },
         error: {
-          DEFAULT: "#EF4444", // red-500
+          DEFAULT: "#E50914", // Netflix red
           50: "#FEF2F2", // red-50
           100: "#FEE2E2", // red-100
-          500: "#EF4444", // red-500
+          500: "#E50914", // Netflix red
           600: "#DC2626", // red-600
         },
         border: {
